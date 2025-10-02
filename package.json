@@ -2,9 +2,10 @@
     "name": "lint-format-sample",
     "version": "1.0.0",
     "scripts": {
-      "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}'",
+      "lint": "eslint 'src/work1/*.ts'",
       "format": "prettier --write .",
-      "typecheck": "npx tsc src/work2/**/*.ts --noEmit"
+      "typecheck": "npx tsc src/work2/**/*.ts --noEmit",
+      "spellcheck": "eslint 'src/work3/**/*.{ts,tsx,js,jsx}'"
     },
     "devDependencies": {
       "typescript": "5.5.4",
