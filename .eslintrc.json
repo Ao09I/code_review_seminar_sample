@@ -1,28 +1,28 @@
 {
-    "parser": "@typescript-eslint/parser",
-    "plugins": ["@typescript-eslint", "spellcheck"],
-    "extends": [
-      "eslint:recommended",
-      "plugin:@typescript-eslint/recommended",
-      "prettier"
-    ],
-    "rules": {
-      "no-console": "error",
-      "indent": ["error", 2],
-      "eqeqeq": "error",
-      "space-infix-ops": "error", 
-      "space-before-blocks": "error",
-      "keyword-spacing": ["error", { "before": true, "after": true }],
-      "@typescript-eslint/no-explicit-any": "warn",
-      "spellcheck/spell-checker": [
-        "warn",
-        {
-          "comments": true,
-          "strings": true,
-          "identifiers": false,
-          "lang": "en_US",
-          "skipWords": ["tsconfig", "eslint", "prettier", "Codespaces"]
-        }
-      ]
-    }
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "spellcheck"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": "error",
+    "indent": ["error", 2],
+    "eqeqeq": "error",
+    "space-infix-ops": "error",
+    "space-before-blocks": "error",
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "@typescript-eslint/no-explicit-any": "warn",
+    "spellcheck/spell-checker": [
+      "warn",
+      {
+        "comments": true,
+        "strings": true,
+        "identifiers": false,
+        "lang": "en_US",
+        "skipWords": ["tsconfig", "eslint", "prettier", "Codespaces"]
+      }
+    ]
   }
+}
