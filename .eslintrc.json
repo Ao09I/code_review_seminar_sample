@@ -1,0 +1,24 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint", "spellcheck"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+    ],
+    "rules": {
+      "eqeqeq": "error",
+      "@typescript-eslint/no-explicit-any": "warn",
+      "spellcheck/spell-checker": [
+        "warn",
+        {
+          "comments": true,
+          "strings": true,
+          "identifiers": false,
+          "lang": "en_US",
+          "skipWords": ["tsconfig", "eslint", "prettier", "Codespaces"]
+        }
+      ]
+    }
+  }
+  
